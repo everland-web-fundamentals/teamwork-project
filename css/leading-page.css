@@ -125,3 +125,21 @@ nav.leading-nav ul li {
 
 
 }
+
+/***** Advertisement *****/
+.left-col-advertisement {
+	float: left;
+	position: absolute;
+	padding-right: 15px;
+	padding-left: 35px;
+	padding-top: 15px;
+	display: block;
+
+}
+.commercial {
+	border: 3px solid black;
+	height: 265px;
+	width: 75px;
+	padding: 10px;
+	margin: 20px;
+}
