@@ -1,4 +1,8 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+  box-sizing: border-box;
+}
+
 font-face {
   font-family: lucidarande;
   src: url('../fonts/LucidaGrandeRegular');
@@ -72,7 +76,8 @@ header {
   height: 40px;
   line-height: 40px;
   padding: 10px 0;
-  margin: 50px auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 header ul {
@@ -82,16 +87,20 @@ header ul {
 }
 
 .logo {
-  margin-right: 0;
+  width: 10%;
+  height: 10%;
+  margin-right: 5%;
 }
 
 .logo img {
-  width: 20%;
+  max-width: 100%;
+  height: auto;
 }
 
 header ul li {
-  margin: 0 7px;
+  margin: 0 10px;
   text-transform: capitalize;
+  align-self: center;
 }
 
 header ul li a:hover {
@@ -192,4 +201,33 @@ footer span {
   width: 75px;
   padding: 10px;
   margin: 20px;
+}
+
+
+/***** Responsive deisgn *****/
+
+@media screen and (max-width: 1200px) {
+  aside.left-col-advertisement {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .article, .aside {
+    float: none;
+  }
+  .article {
+    margin-top: 300px;
+    margin-bottom: 50px;
+  }
 }
