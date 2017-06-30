@@ -6,6 +6,8 @@
   <title>Everlast project</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/leading-page.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/common-index.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
     <header>
       <ul>
         <li class="logo"><img src="images/everland_logo.gif" alt="logo"></li>
-        <li><a href="#" id="home">всичко</a></li>
+        <li><a href="#" id="home">начало</a></li>
         <li><a href="#" id="world-news">По света</a></li>
         <li><a href="#" id="home-news">у нас</a></li>
         <li><a href="#" id="sport-news">спорт</a></li>
@@ -48,8 +50,13 @@
         <h2>повече за нас</h2>
         <ul class="aside-nav">
           <li><a href="#">Последни новини</a></li>
+          <!-- да води към новини по света? -->
+          <li class="forex"><a href="#" onclick="showhide()">Валутни курсове</a></li>
+            <ul class="forex-ul">
+              <li>1 USD = 1.71369 BGN</li>
+              <li>1 GBP = 2.22279 BGN</li>
+            </ul>
           <li><a href="#">Най-четени</a></li>
-          <li><a href="#">Валутни курсове</a></li>
         </ul>
         <div class="box">
           <h3>Знаете ли &hellip;</h3>
