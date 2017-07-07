@@ -1,0 +1,30 @@
+.list-sport-articles {
+	border: 1px solid black;
+	width:100%; /*parent .article width:57% == 540px; */
+	margin-bottom: 20px;
+
+}
+ul.secondary-sport-articles li {
+	margin-bottom: 20px;
+}
+/*each li from list of small articles preview */
+.topic {
+	height: 150px;
+	position: relative;
+}
+
+.topic img {
+	border:1px solid red;
+	width: 40%;
+	max-width: 40%;
+	height: 150px;
+	position: absolute;
+	left: 0;
+}
+.topic-info {
+	border:1px solid purple;
+	width: 58%;
+	position: absolute;
+	right:0;
+}
+
