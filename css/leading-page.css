@@ -213,28 +213,41 @@ footer span {
 
 /***** Advertisement *****/
 
+.right-col-advertisement {
+  float: right;
+  position: fixed;
+  right: -10px;
+  padding-right: 40px;
+}
+
 .left-col-advertisement {
   float: left;
-  position: absolute;
+  position: fixed;
   padding-right: 15px;
   padding-left: 35px;
   padding-top: 15px;
   display: block;
+  box-sizing: border-box;
 }
 
 .commercial {
   border: 3px solid black;
   height: 265px;
-  width: 75px;
-  padding: 10px;
+  width: 90px;
+  padding: 1px;
   margin: 20px;
+}
+
+.commercial img {
+  width: 100%;
+  height: 100%;
 }
 
 
 /***** Responsive deisgn *****/
 
 @media screen and (max-width: 1200px) {
-  aside.left-col-advertisement {
+  aside.left-col-advertisement, aside.right-col-advertisement {
     display: none;
   }
 }
