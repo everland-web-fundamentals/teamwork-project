@@ -20,6 +20,9 @@ div.header {
 	height: 350px;
 	margin: 10px auto;
 }
+.full-article img.big-img {
+	height: 450px;
+}
 .full-article p {
 	font-size: 1rem;
 	margin:20px auto;

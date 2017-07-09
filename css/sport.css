@@ -10,13 +10,14 @@ ul.secondary-sport-articles li {
 	/*width: 98%;*/
 }
 ul.secondary-sport-articles li:hover {
-	background: #003162;;
+	background: #003162;
 	color: #fff;
 }
 
-ul.secondary-sport-articles li a:link, 
-ul.secondary-sport-articles li a:visited {
+/*ul.secondary-sport-articles li a:link,a:visited*/ 
+ul.secondary-sport-articles li a {
   border-bottom: 0;
+  color:red:;
 }
 
 /*each li from list of small articles preview */
@@ -42,11 +43,24 @@ ul.secondary-sport-articles li a:visited {
 	right:0;
 
 }
-.topic-info h2 {
+
+ul.secondary-sport-articles li a.title{
 	/*color: rgb(66, 148, 182);*/
 	font-size: 1rem;
 	font-weight: normal;
-	/*color:#003162;*/
+	color: orange; /*#003162;*/
+}
+/*ul.secondary-sport-articles li a.title {*/
+/*,
+ul.secondary-sport-articles li a.title:hover {*/
+/*	color:orange;
+	cursor:pointer;
+	text-decoration: underline;
+}*/
+ul.secondary-sport-articles li a.title:hover {
+	color:orange;
+	cursor:pointer;
+	text-decoration: underline;
 }
 .topic-info p {
 	margin: 20px auto;
