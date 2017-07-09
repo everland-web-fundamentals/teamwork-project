@@ -7,6 +7,7 @@
   <title>Everlast project</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/leading-page.css" />
+  <link rel="stylesheet" href="css/contacts.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/common-index.js"></script>
 </head>
@@ -35,6 +36,7 @@
   </div>
 </aside>
 
+
   <div class="wrapper">
     <header>
       <ul>
@@ -50,34 +52,31 @@
 
     <main class="content">
 
-      <div class="article">
-        <img src="images/css.png" alt="fun">
+      <div class="container-contact">
+        <form action="#">
+
+          <label for="fname">Собствено име</label>
+          <input type="text" id="fname" name="firstname" placeholder="Името..">
+
+          <label for="lname">Фамилия</label>
+          <input type="text" id="lname" name="lastname" placeholder="Фамилията..">
+
+          <label for="country">Държава</label>
+          <select id="country" name="country">
+      <option value="australia">България</option>
+      <option value="canada">Канада</option>
+      <option value="usa">USA</option>
+    </select>
+
+          <label for="subject">Текст</label>
+          <textarea id="subject" name="subject" placeholder="Напиши.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
       </div>
 
-      <div class="aside">
-        <h2>повече за нас</h2>
-        <ul class="aside-nav">
-          <li><a href="home-news.html">Последни новини</a></li>
-          <li class="forex"><a href="javascript:;" onclick="showhide()">Валутни курсове</a></li>
-          <ul class="forex-ul">
-            <li>1 USD = 1.71369 BGN</li>
-            <li>1 GBP = 2.22279 BGN</li>
-          </ul>
-          <li><a href="sport.html">Най-четени</a></li>
-        </ul>
-        <div class="box">
-          <h3>Знаете ли &hellip;</h3>
-          <p>ДНК на човека съвпада на 30% с тази на градинската салата.</p>
-          <p>Котката спи през 70% от своя живот.</p>
-          <p>Глобалното затопляне ще лиши човечеството от бирата.</p>
-        </div>
-        <div class="box">
-          <h3>Знаете ли &hellip;</h3>
-          <p>Охлювът може да спи до 3 години.</p>
-          <p>В Windows не може да се създаде папка с името „Con".</p>
-          <p>В казиното в Лас Вегас няма часовници.</p>
-        </div>
-      </div>
+
     </main>
 
     <footer class="footer">
