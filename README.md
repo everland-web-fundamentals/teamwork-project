@@ -14,7 +14,7 @@ Features:
 
 Live demo:
 ------------
-
+https://everland-web-fundamentals.github.io/project-gh-pages/
 
 Team members:
 -------------
