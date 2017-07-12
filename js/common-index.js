@@ -1,9 +1,9 @@
 function showhide() {
   
-  if ($('.forex-ul').css('display') == 'block') {
-    $('.forex-ul').hide();
+  if ($('.forex-info').css('display') == 'block') {
+    $('.forex-info').hide();
   } else {
-    $('.forex-ul').show();
+    $('.forex-info').show();
   }
 
 }

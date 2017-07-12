@@ -184,7 +184,7 @@ header ul li a:active
   margin: 10px 0 20px 0;
 }
 
-.forex-ul {
+.forex-info {
   margin-bottom: 20px;
   display: none;
 }
@@ -208,7 +208,9 @@ footer {
   height: 50px;
   line-height: 50px;
 }
-
+.css-valid {
+  margin-top: 1.2%;
+}
 footer span {
   float: left;
   color: #fff;

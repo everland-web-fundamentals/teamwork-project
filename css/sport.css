@@ -47,17 +47,9 @@ ul.secondary-sport-articles li a {
 
 ul.secondary-sport-articles li a.title{
 	/*color: rgb(66, 148, 182);*/
-	font-size: 1rem;
 	font-weight: normal;
 	color: orange; /*#003162;*/
 }
-/*ul.secondary-sport-articles li a.title {*/
-/*,
-ul.secondary-sport-articles li a.title:hover {*/
-/*	color:orange;
-	cursor:pointer;
-	text-decoration: underline;
-}*/
 ul.secondary-sport-articles li a.title:hover {
 	color:orange;
 	cursor:pointer;
@@ -68,5 +60,8 @@ ul.secondary-sport-articles li a.title:hover {
 	height: 20px;
 	line-height: 20px;
 	margin: 10px 4px;
-	font-size: 0.8rem;
+	font-size: 0.8em;
+}
+.topic-info h2 {
+	font-size: 1em;
 }

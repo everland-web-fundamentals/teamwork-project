@@ -2,11 +2,14 @@
 #cc-slider {
   /*border:1px solid black;*/
   text-align: center;
-  margin: 60px 0px;
+  margin: 30px 0px;
   max-width: 600px; /*class=article=611px;*/
   position:relative;
 }
-
+#cc-slider h2 {
+  margin-bottom: 20px;
+  color: #003162;
+}
 #cc-slider input {
   display: none;
 }
