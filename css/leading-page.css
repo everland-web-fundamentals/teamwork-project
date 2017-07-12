@@ -10,7 +10,7 @@ font-face {
 
 body {
   background: rgb(255, 255, 255);
-  color: rgb(59, 67, 68);
+  color: #000; 
   font-family: "Lucida Grande", 'Lucida Sans', Verdana, Tahoma, sans-serif;
   font-size: 16px;
   background-image: url("images/news2.jpg");
@@ -50,7 +50,7 @@ ul li a:link, ul li a:visited {
   display: block;
   text-decoration: none;
   color: rgb(66, 148, 182);
-  border-bottom: 2px solid rgb(232, 243, 248);
+  /*border-bottom: 2px solid rgb(232, 243, 248);*/
 }
 
 
@@ -122,12 +122,14 @@ header ul li a:hover {
 .content {
   /*border:1px solid black;*/
   position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+
 }
 
 .article {
   float: left;
-  width: 57%;
-  /*540px*/
+  width: 65%; /*598px*/
 }
 
 .article img {
@@ -136,12 +138,37 @@ header ul li a:hover {
 }
 
 .aside {
-  width: 32%;
+  width: 30%;/*276px*/
   float: right;
 }
 
+.line h2, 
+.line h3 {
+  color:orange;
+  height: 20px;
+  line-height: 20px;
+  margin:30px 0 20px 0;
+  padding-bottom: 30px;
+  display: inline-block;
+  /*border-bottom: 2px solid #003162;*/
+}
+.line h2{
+  width: 100%;
+  /*max-width: 130px;*/
+  text-transform: capitalize;
+}
+.line h3 {
+  font-size: 1.1rem;
+  width: 100%;
+/*  max-width: 150px;
+*/  text-transform: none;
+
+}
+.aside-nav {
+  margin: 0 auto;
+}
 .aside-nav li {
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 
 .forex-ul {
@@ -150,18 +177,12 @@ header ul li a:hover {
 }
 
 .box {
-  border-bottom: 1px solid rgb(219, 230, 236);
-  padding: 1em 0 1em 0;
   text-align: justify;
 }
 
 .box p {
   margin-bottom: 15px;
-}
-
-.box h3 {
-  color: darkred;
-  font-weight: bold;
+  line-height: 20px;
 }
 
 
@@ -170,7 +191,7 @@ header ul li a:hover {
 footer {
   /*border: 1px solid black;*/
   clear: both;
-  background: rgb(9, 8, 33);
+  background: #003162; 
   height: 50px;
   line-height: 50px;
 }
@@ -200,16 +221,15 @@ footer span {
   text-align: center;
   border-radius: 50%;
   background: #fff;
-  color: #090821;
+  color: orange;/*#090821;*/
   height: 35px;
   line-height: 35px;
   margin-top: 5px;
 }
 
 .socials i:hover {
-  color: purple;
+  color:rgb(66, 148, 182);
 }
-
 
 /***** Advertisement *****/
 
@@ -270,4 +290,5 @@ footer span {
   .article {
     margin-bottom: 5%;
   }
+  
 }
