@@ -1,7 +1,8 @@
 .list-sport-articles {
 	/*border: 1px solid black;*/
-	width:100%; /*parent .article width:57% == 540px; */
+	width:100%; 
 	margin-bottom: 20px;
+	margin-top:20px;
 
 }
 ul.secondary-sport-articles li {
@@ -17,7 +18,7 @@ ul.secondary-sport-articles li:hover {
 /*ul.secondary-sport-articles li a:link,a:visited*/ 
 ul.secondary-sport-articles li a {
   border-bottom: 0;
-  color:red:;
+  color:red;
 }
 
 /*each li from list of small articles preview */
@@ -63,6 +64,9 @@ ul.secondary-sport-articles li a.title:hover {
 	text-decoration: underline;
 }
 .topic-info p {
-	margin: 20px auto;
+	padding-right: 8px;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 4px;
 	font-size: 0.8rem;
 }

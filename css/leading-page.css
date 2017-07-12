@@ -232,17 +232,17 @@ footer span {
 }
 
 /***** Advertisement *****/
-
+/*
 .right-col-advertisement {
   float: right;
-  position: fixed;
+  position: relative;
   right: -10px;
   padding-right: 40px;
 }
 
 .left-col-advertisement {
   float: left;
-  position: fixed;
+  position: relative;
   padding-right: 15px;
   padding-left: 35px;
   padding-top: 15px;
@@ -252,16 +252,16 @@ footer span {
 
 .commercial {
   border: 3px solid black;
-  height: 265px;
-  width: 90px;
-  padding: 1px;
-  margin: 20px;
+  height: 200px;
+  width: 240px;
+ padding: 1px;
+  margin: 300px 30px;
 }
 
 .commercial img {
   width: 100%;
   height: 100%;
-}
+}*/
 
 
 /***** Responsive deisgn *****/
