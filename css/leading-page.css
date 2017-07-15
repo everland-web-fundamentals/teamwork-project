@@ -5,17 +5,18 @@
 }
 
 font-face {
-  font-family: lucidarande;
+  font-family: 'lucidarande';
   src: url('../fonts/LucidaGrandeRegular');
 }
 font-face {
-  font-family: charming;
+  font-family: 'charming';
   src: url('../fonts/Achafexp');
 }
 font-face {
-  font-family: eva;
+  font-family: 'eva';
   src: url('../fonts/evanescent_p');
 }
+
 body {
   background:rgb(255, 255, 255); /*#eaf2ff;*/
   color: #000; 
@@ -47,7 +48,7 @@ h3 {
 }
 
 a:link, a:visited {
-  color: rgb(241, 47, 93, 08);
+  color: rgb(241, 47, 93);
 }
 
 ul {
@@ -172,7 +173,7 @@ header ul li a:active
   text-transform: capitalize;
 }
 .line h3 {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   width: 100%;
 /*  max-width: 150px;
 */  text-transform: none;
