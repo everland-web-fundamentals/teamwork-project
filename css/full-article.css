@@ -1,17 +1,22 @@
 .full-article {
 	/*border:1px solid black;*/
-	width:100%;
+	width:98%;
 }
-div.header {
+div.header p {
+	margin-top: 50px;
+	padding: 5px 0 5px 0px;
+	color:orange;
 	/*border:1px solid blue;*/
 }
 .full-article div.header h1 {
 /*	border:1px solid red;*/
-	margin:10px auto;
+	margin:30px auto;
 	padding:10px auto;
 	font-size: 1.5rem;
 	text-align: left;
 	color:#003162;
+	height: 30px;
+	line-height: 30px;
 }
 
 .full-article img {
@@ -74,6 +79,7 @@ div.social-communications {
 	line-height: 30px;
 	height: 100%;
 	margin: 5px auto;
+	border-radius: 5px;
 }
 .social-items-facebook a i,
 .social-items-twitter a i,
@@ -90,6 +96,7 @@ div.social-communications {
 	font-weight: bold;
 	font-size: 1.1rem;
 	text-decoration: none;
+
 }
 
 .social-items-facebook {
